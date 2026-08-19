@@ -1,24 +1,164 @@
-UK Lottery Predictor
-Support & Help Centre
-
-Contact Us
-Have a question, found a bug, or want to suggest a feature? Get in touch:
-
-gxwapplications@gmail.com
-
-Frequently Asked Questions
-How do I switch between lotteries?
-Use the EuroMillions, The Lotto, or Thunderball buttons at the top of the app to switch instantly between games.
-How do I generate a prediction?
-Select a prediction method (Hot Numbers, Due Numbers, Balanced, or Random) from the dropdown, then tap "Generate prediction".
-How do I save a prediction?
-After generating numbers, tap "Save this pick". You can view all your saved picks anytime under the Saved tab.
-Where do my saved picks go if I delete the app?
-Saved picks are stored locally on your device only. If you delete the app, this data will be removed and cannot be recovered.
-What do the stats and frequency numbers mean?
-The Stats tab shows how often each number and bonus ball has appeared in past draws, based on historical UK draw data.
-Does this app guarantee winning numbers?
-No. UK Lottery Predictor is an entertainment and statistical analysis tool only. Lottery draws are random, and no method — including those offered in this app — can predict or guarantee a winning outcome.
-Is my data shared with anyone?
-No. We do not collect, store, or share any personal information. See our Privacy Policy for full details.
-© 2026 UK Lottery Predictor. Not affiliated with or endorsed by the National Lottery, Camelot, or Allwyn.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — UK Lottery Predictor</title>
+<meta name="description" content="Get help with UK Lottery Predictor: FAQs, how the app works, and how to contact us.">
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --card: #10162a;
+    --border: #1e2740;
+    --text: #f4f6fb;
+    --muted: #8b93a7;
+    --accent-1: #2a78d6;
+    --accent-2: #eda100;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  a { color: var(--accent-1); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  header.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; }
+  .brand .mark {
+    width: 30px; height: 30px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px;
+  }
+  h1 { font-size: 32px; font-weight: 900; margin: 46px 0 8px; letter-spacing: -0.02em; }
+  .lede { color: var(--muted); font-size: 15.5px; margin: 0 0 40px; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 40px;
+  }
+  .contact-card h2 { margin: 0 0 6px; font-size: 17px; }
+  .contact-card p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+  .contact-card a.email {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--accent-1);
+  }
+  h2.section { font-size: 20px; margin: 40px 0 16px; }
+  details {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  details summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14.5px;
+    list-style: none;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before {
+    content: "+";
+    display: inline-block;
+    width: 18px;
+    color: var(--accent-1);
+    font-weight: 900;
+  }
+  details[open] summary::before { content: "–"; }
+  details p {
+    margin: 10px 0 2px 18px;
+    color: var(--muted);
+    font-size: 13.5px;
+  }
+  .disclaimer {
+    margin-top: 40px;
+    padding: 16px 18px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--muted);
+    font-size: 12.5px;
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 28px 0 40px;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <div class="brand">
+        <span class="mark">🍀</span>
+        UK Lottery Predictor
+      </div>
+      <a href="index.html">← Back to home</a>
+    </header>
+    <h1>Support &amp; Help Centre</h1>
+    <p class="lede">Have a question, found a bug, or want to suggest a feature? Get in touch.</p>
+    <div class="contact-card">
+      <h2>Contact us</h2>
+      <p>We aim to respond within 1–2 business days.</p>
+      <a class="email" href="mailto:gxwapplications@gmail.com?subject=UK%20Lottery%20Predictor%20Support">gxwapplications@gmail.com</a>
+    </div>
+    <h2 class="section">Frequently asked questions</h2>
+    <details>
+      <summary>How do I switch between lotteries?</summary>
+      <p>Use the EuroMillions, The Lotto, or Thunderball buttons at the top of the app to switch instantly between games.</p>
+    </details>
+    <details>
+      <summary>How do I generate a prediction?</summary>
+      <p>Select a prediction method (Hot Numbers, Due Numbers, Balanced, or Random) from the dropdown, then tap "Generate prediction".</p>
+    </details>
+    <details>
+      <summary>How do I save a prediction?</summary>
+      <p>After generating numbers, tap "Save this pick". You can view all your saved picks anytime under the Saved tab.</p>
+    </details>
+    <details>
+      <summary>Where do my saved picks go if I delete the app?</summary>
+      <p>Saved picks are stored locally on your device only. If you delete the app, this data will be removed and cannot be recovered.</p>
+    </details>
+    <details>
+      <summary>What do the stats and frequency numbers mean?</summary>
+      <p>The Stats tab shows how often each number and bonus ball has appeared in past draws, based on historical UK draw data.</p>
+    </details>
+    <details>
+      <summary>Does this app guarantee winning numbers?</summary>
+      <p>No. UK Lottery Predictor is an entertainment and statistical analysis tool only. Lottery draws are random, and no method — including those offered in this app — can predict or guarantee a winning outcome.</p>
+    </details>
+    <details>
+      <summary>Is my data shared with anyone?</summary>
+      <p>No. We do not collect, store, or share any personal information. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+    </details>
+    <div class="disclaimer">
+      UK Lottery Predictor is an independent entertainment app. It is not affiliated with, endorsed by, or connected to the National Lottery, Camelot, or Allwyn in any way.
+    </div>
+    <footer>
+      <div>© 2026 UK Lottery Predictor. Not affiliated with or endorsed by the National Lottery, Camelot, or Allwyn.</div>
+      <div><a href="mailto:gxwapplications@gmail.com">gxwapplications@gmail.com</a></div>
+    </footer>
+  </div>
+</body>
+</html>
